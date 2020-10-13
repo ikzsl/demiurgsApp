@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/demiurgsApp/static/css/main.ae106326.chunk.css",
+    "main.js": "/demiurgsApp/static/js/main.338fd491.chunk.js",
+    "main.js.map": "/demiurgsApp/static/js/main.338fd491.chunk.js.map",
+    "runtime-main.js": "/demiurgsApp/static/js/runtime-main.21bf0fcd.js",
+    "runtime-main.js.map": "/demiurgsApp/static/js/runtime-main.21bf0fcd.js.map",
+    "static/js/2.f1985360.chunk.js": "/demiurgsApp/static/js/2.f1985360.chunk.js",
+    "static/js/2.f1985360.chunk.js.map": "/demiurgsApp/static/js/2.f1985360.chunk.js.map",
+    "index.html": "/demiurgsApp/index.html",
+    "precache-manifest.e9b8490b9b2721548ec9f5ef05d7ed79.js": "/demiurgsApp/precache-manifest.e9b8490b9b2721548ec9f5ef05d7ed79.js",
+    "service-worker.js": "/demiurgsApp/service-worker.js",
+    "static/css/main.ae106326.chunk.css.map": "/demiurgsApp/static/css/main.ae106326.chunk.css.map",
+    "static/js/2.f1985360.chunk.js.LICENSE.txt": "/demiurgsApp/static/js/2.f1985360.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21bf0fcd.js",
+    "static/js/2.f1985360.chunk.js",
+    "static/css/main.ae106326.chunk.css",
+    "static/js/main.338fd491.chunk.js"
+  ]
+}
