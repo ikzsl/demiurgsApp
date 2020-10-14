@@ -20,18 +20,19 @@ const App = () => {
   const [liveCellsInARow, liveCellsInARowCount] = useState(0);
   const [deadCellsInARow, deadCellsInARowCount] = useState(0);
 
-  const items = itemsArray.map((item) => (
-    <Item type={item} key={__.uniqueId()} />
-  ));
+  const items = itemsArray.map(({ id, type }) => <Item type={type} key={id} />);
 
   const handleClick = () => {
-    const cell = getRandomCell();
+    const cell = {
+      id: __.uniqueId(),
+      type: getRandomCell(),
+    };
 
-    if (cell === 'dead') {
+    if (cell.type === 'dead') {
       deadCellsInARowCount(deadCellsInARow + 1);
       liveCellsInARowCount(0);
     }
-    if (cell === 'live') {
+    if (cell.type === 'live') {
       liveCellsInARowCount(liveCellsInARow + 1);
       deadCellsInARowCount(0);
     }
@@ -41,11 +42,17 @@ const App = () => {
 
   if (liveCellsInARow === cellsInARowToAction.live) {
     liveCellsInARowCount(0);
-    addItem([...itemsArray.slice(-sizeOfWorld), 'life']);
+    addItem([
+      ...itemsArray.slice(-sizeOfWorld),
+      { id: __.uniqueId(), type: 'life' },
+    ]);
   }
 
   if (deadCellsInARow === cellsInARowToAction.dead) {
-    const indexOfLastLife = itemsArray.lastIndexOf('life');
+    const indexOfLastLife = itemsArray
+      .map((item) => item.type)
+      .lastIndexOf('life');
+
     deadCellsInARowCount(0);
     if (indexOfLastLife > 0) {
       addItem([
@@ -81,7 +88,6 @@ const Header = styled.header`
 `;
 
 const Container = styled.div`
-  
   display: flex;
   justify-content: space-between;
   flex-direction: column;
