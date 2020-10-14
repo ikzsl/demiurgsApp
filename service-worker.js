@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/demiurgsApp/precache-manifest.c3eadbde61751903b4c7fd81648793ec.js"
+  "/demiurgsApp/precache-manifest.4b71e812e1979cb913706aef406b2b76.js"
 );
 
 self.addEventListener('message', (event) => {

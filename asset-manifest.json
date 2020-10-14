@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/demiurgsApp/static/css/main.069ac2e4.chunk.css",
-    "main.js": "/demiurgsApp/static/js/main.51f6c2ef.chunk.js",
-    "main.js.map": "/demiurgsApp/static/js/main.51f6c2ef.chunk.js.map",
+    "main.js": "/demiurgsApp/static/js/main.bb51f4b9.chunk.js",
+    "main.js.map": "/demiurgsApp/static/js/main.bb51f4b9.chunk.js.map",
     "runtime-main.js": "/demiurgsApp/static/js/runtime-main.21bf0fcd.js",
     "runtime-main.js.map": "/demiurgsApp/static/js/runtime-main.21bf0fcd.js.map",
     "static/js/2.1a27154d.chunk.js": "/demiurgsApp/static/js/2.1a27154d.chunk.js",
     "static/js/2.1a27154d.chunk.js.map": "/demiurgsApp/static/js/2.1a27154d.chunk.js.map",
     "index.html": "/demiurgsApp/index.html",
-    "precache-manifest.c3eadbde61751903b4c7fd81648793ec.js": "/demiurgsApp/precache-manifest.c3eadbde61751903b4c7fd81648793ec.js",
+    "precache-manifest.4b71e812e1979cb913706aef406b2b76.js": "/demiurgsApp/precache-manifest.4b71e812e1979cb913706aef406b2b76.js",
     "service-worker.js": "/demiurgsApp/service-worker.js",
     "static/css/main.069ac2e4.chunk.css.map": "/demiurgsApp/static/css/main.069ac2e4.chunk.css.map",
     "static/js/2.1a27154d.chunk.js.LICENSE.txt": "/demiurgsApp/static/js/2.1a27154d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.21bf0fcd.js",
     "static/js/2.1a27154d.chunk.js",
     "static/css/main.069ac2e4.chunk.css",
-    "static/js/main.51f6c2ef.chunk.js"
+    "static/js/main.bb51f4b9.chunk.js"
   ]
 }

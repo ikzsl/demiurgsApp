@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a74fae7de70740f0d3f42ef2c678576",
+    "revision": "50cb17d2af53d7654d69c72152c30b12",
     "url": "/demiurgsApp/index.html"
   },
   {
-    "revision": "20f559f86918fc91858d",
+    "revision": "9ea99f1868319f819971",
     "url": "/demiurgsApp/static/css/main.069ac2e4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/demiurgsApp/static/js/2.1a27154d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20f559f86918fc91858d",
-    "url": "/demiurgsApp/static/js/main.51f6c2ef.chunk.js"
+    "revision": "9ea99f1868319f819971",
+    "url": "/demiurgsApp/static/js/main.bb51f4b9.chunk.js"
   },
   {
     "revision": "c527d1e1cd6d0bb7eae4",
