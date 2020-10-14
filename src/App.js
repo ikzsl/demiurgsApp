@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import './App.css';
 import Item from './components/Item';
+import Fab from './components/Fab';
 import __ from 'lodash';
+import styled from 'styled-components';
 
 const sizeOfWorld = 9;
 
@@ -55,11 +56,42 @@ const App = () => {
   }
 
   return (
-    <div className="App">
-      <header className="App-header">{items}</header>
-      <button onClick={handleClick}>Сотворить</button>
-    </div>
+    <Container>
+      <div>
+        <Header>Клеточное наполнение</Header>
+        <Main className="App-main">{items}</Main>
+      </div>
+
+      <Fab cb={handleClick}>Сотворить</Fab>
+    </Container>
   );
 };
 
 export default App;
+
+const Header = styled.header`
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-align: center;
+`;
+
+const Container = styled.div`
+  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 16px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #310050 0%, #000000 100%);
+`;
+
+const Main = styled.main`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;

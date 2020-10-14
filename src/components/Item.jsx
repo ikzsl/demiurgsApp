@@ -31,7 +31,7 @@ const StyledItem = styled.div`
 `;
 
 const StyledTitle = styled.span`
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -40,7 +40,7 @@ const StyledTitle = styled.span`
 `;
 
 const StyledSubtitle = styled.span`
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
