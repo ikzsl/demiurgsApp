@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a1a38796fae0ffeed874dfcc2fde287",
+    "revision": "759f84a07fb1f4e3205e8ed68d3d84f1",
     "url": "/demiurgsApp/index.html"
   },
   {
-    "revision": "a57c1d4945c55dfcb8d7",
+    "revision": "6d6c106bf9c5a819dcdb",
     "url": "/demiurgsApp/static/css/main.a3114563.chunk.css"
   },
   {
-    "revision": "c42986608bd4263646d7",
-    "url": "/demiurgsApp/static/js/2.f507ee1c.chunk.js"
+    "revision": "5732fba30610995377d5",
+    "url": "/demiurgsApp/static/js/2.1448361f.chunk.js"
   },
   {
     "revision": "64bea2e190f27355a76963b8cb94bb7b",
-    "url": "/demiurgsApp/static/js/2.f507ee1c.chunk.js.LICENSE.txt"
+    "url": "/demiurgsApp/static/js/2.1448361f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a57c1d4945c55dfcb8d7",
-    "url": "/demiurgsApp/static/js/main.30f382a5.chunk.js"
+    "revision": "6d6c106bf9c5a819dcdb",
+    "url": "/demiurgsApp/static/js/main.3084c0d9.chunk.js"
   },
   {
     "revision": "c527d1e1cd6d0bb7eae4",
